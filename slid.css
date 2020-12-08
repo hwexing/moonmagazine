@@ -1,0 +1,58 @@
+* {
+    letter-spacing: 0.05em;
+  }
+  
+  .slid {
+      padding: 10px 20px;
+      text-align: left;
+      display: inline;
+    }
+    .slid ul{
+      list-style: none;
+    }
+    .slid a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .slid li {
+      margin: 2rem 0;
+  
+    }
+     
+    /* ボタン */
+    .btn-menu {
+      display: inline;
+      background: transparent;
+      color: #fff;
+      padding: .1rem;
+      z-index: 0;
+      cursor: pointer;
+      line-height: 1;
+    }
+     
+    /* メニュー */
+  
+    nav {
+      background: #333;
+      position: absolute;
+      z-index: 30;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      height: 1000px;
+      width: 0; /* ←100%から 0 に変更 */
+      transition: .5s;
+    }
+     
+    /* メニューを開いた時 */
+    nav.open-menu {
+      width: 100%;
+      z-index: 30;
+    }
+  
+    nav.close-menu{
+        width: 0%;
+    }

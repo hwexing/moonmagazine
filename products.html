@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slid.css">
+    <script src="https://kit.fontawesome.com/dfb00a3d34.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="swiper.css">
+　  <script src="swiper.js"></script>
+</head>
+
+<body>
+ 
+    <div>
+        <div class="top-wrapper-pd">
+  
+            <div class="header-pd">
+                <div class="head-tab">
+     
+                   <div class="slid">
+                         <a class="btn-menu head-btn" >menu</a>
+                            <nav>
+                                <ul>
+                                    <li><a class="btn-menu head-btn">menu</a></li>
+                                    <li><a href="about.html">about</a></li>
+                                    <li><a href="profile.html">profile</a></li>
+                                    <li><a href="products.html">products</a></li>
+                                    <li><a href="contact.html">contact</a></li>
+                                </ul>
+                           </nav>
+                    </div>
+     
+                         <a class="head-btn" href="index.html">moon</a>
+                         <a class="head-btn" href="CART.html">cart</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-pd">
+
+            <div class="page-title">
+                <h1>products</h1>
+            </div>
+
+            <div class="top-container-pd">
+                <h2>vol.1 「学生」</h2>
+                <p>”タイムリミットを背負った私達はどう生きるのか”<br>
+                    私達は何者でもあり、何者でもない真っ白のなかに<br>
+                    いるのかもしれない。<br>
+                    この今は永遠ではなく一瞬で終わるだろう。<br>
+                    学生をどう生きるかによって<br>
+                    目の前のキャンバスは変わっていく。
+                </p>
+                <h3>学生である私たち自身がこのテーマを取り上げる
+                    ことによって”学生とは”という議題に向き合う。
+                </h3>
+            </div>
+
+            <div class="main-container">
+
+                <div class="swiper-container">
+                    <!-- Sliderのラッパー(各スライドを内包する箱みたいなイメージ) -->
+                    <div class="swiper-wrapper">
+                        <!-- Slideさせたいコンテンツ -->
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/mikri(1).jpeg" alt="mikri">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/mikri.jpeg" alt="mikri">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/nana.jpg" alt="nana">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/rena.JPG" alt="rena">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/rena.PNG" alt="rena">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/vol1_product/riyo.jpg" alt="riyo">
+                        </div>
+                        <div class="swiper-slide illu">
+                            <img src="images/vol1_product/riyo_illustration.JPG" alt="riyo">
+                        </div>
+                    </div>
+                    <!-- ページネーション（※省略可） -->
+                    <div class="swiper-pagination"></div>
+                    <!-- ナビゲーションボタン（※省略可） -->
+                    <div class="swiper-button-prev"></div> 
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+
+        </div>
+    
+
+        <div class="footer">
+
+            <div class="mn-icon">
+                <a href=""><i class="fab fa-instagram fa-2x insta-icon"></i></a>
+                <a href=""><i class="fab fa-twitter fa-2x twitter-icon"></i></a>
+            </div>
+
+            <div class="mn-cpwt">
+                <small> &copy; 2020 moonmagazine</small>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        　var swiper = new Swiper('.swiper-container', {
+        　　loop: true,
+        　　autoplay: {
+        　　　delay: 3000,
+        　　　disableOnInteraction: true
+        　　},
+        　　pagination: {
+        　　　el: '.swiper-pagination',
+        　　　type: 'bullets',
+        　　　clickable: true,
+        　　},
+        　　navigation: {
+        　　　nextEl: '.swiper-button-next',
+        　　　prevEl: '.swiper-button-prev',
+        　　}
+        　});
+    </script>
+
+    <script type="text/javascript" src="slid.js"></script>
+
+
+</body>
+</html>
